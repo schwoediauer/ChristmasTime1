@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3809CE8C1FB8C363008DE7D9 /* DataTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809CE8B1FB8C363008DE7D9 /* DataTools.swift */; };
+		3809CF501FB8D301008DE7D9 /* SJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3809CF4D1FB8D2E6008DE7D9 /* SJExtension.framework */; };
+		3809CF511FB8D301008DE7D9 /* SJExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3809CF4D1FB8D2E6008DE7D9 /* SJExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3809CF5F1FB8F936008DE7D9 /* advent.png in Resources */ = {isa = PBXBuildFile; fileRef = 3809CF5E1FB8F936008DE7D9 /* advent.png */; };
 		38FED6651FB0CA1000A08104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FED6641FB0CA1000A08104 /* AppDelegate.swift */; };
 		38FED6671FB0CA1000A08104 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FED6661FB0CA1000A08104 /* ViewController.swift */; };
 		38FED66A1FB0CA1000A08104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FED6681FB0CA1000A08104 /* Main.storyboard */; };
@@ -14,9 +18,31 @@
 		38FED66F1FB0CA1000A08104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FED66D1FB0CA1000A08104 /* LaunchScreen.storyboard */; };
 		38FED67A1FB0CA1000A08104 /* ChristmasTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FED6791FB0CA1000A08104 /* ChristmasTimeTests.swift */; };
 		38FED6851FB0CA1000A08104 /* ChristmasTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FED6841FB0CA1000A08104 /* ChristmasTimeUITests.swift */; };
+		38FED6991FB2460E00A08104 /* ball-1906468_960_720.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FED6981FB2460E00A08104 /* ball-1906468_960_720.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3809CF4C1FB8D2E6008DE7D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3809CF471FB8D2E6008DE7D9 /* SJExtension.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3809CE971FB8C9A2008DE7D9;
+			remoteInfo = SJExtension;
+		};
+		3809CF4E1FB8D2E6008DE7D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3809CF471FB8D2E6008DE7D9 /* SJExtension.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3809CEA01FB8C9A3008DE7D9;
+			remoteInfo = SJExtensionTests;
+		};
+		3809CF521FB8D301008DE7D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3809CF471FB8D2E6008DE7D9 /* SJExtension.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3809CE961FB8C9A2008DE7D9;
+			remoteInfo = SJExtension;
+		};
 		38FED6761FB0CA1000A08104 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38FED6591FB0CA1000A08104 /* Project object */;
@@ -33,7 +59,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3809CEFA1FB8CF87008DE7D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3809CF511FB8D301008DE7D9 /* SJExtension.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3809CE8B1FB8C363008DE7D9 /* DataTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTools.swift; sourceTree = "<group>"; };
+		3809CF471FB8D2E6008DE7D9 /* SJExtension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SJExtension.xcodeproj; path = ../../Framework/SJExtension/SJExtension.xcodeproj; sourceTree = "<group>"; };
+		3809CF5E1FB8F936008DE7D9 /* advent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = advent.png; sourceTree = "<group>"; };
 		38FED6611FB0CA1000A08104 /* ChristmasTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristmasTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FED6641FB0CA1000A08104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38FED6661FB0CA1000A08104 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +90,7 @@
 		38FED6801FB0CA1000A08104 /* ChristmasTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FED6841FB0CA1000A08104 /* ChristmasTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasTimeUITests.swift; sourceTree = "<group>"; };
 		38FED6861FB0CA1000A08104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FED6981FB2460E00A08104 /* ball-1906468_960_720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-1906468_960_720.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3809CF501FB8D301008DE7D9 /* SJExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3809CF481FB8D2E6008DE7D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3809CF4D1FB8D2E6008DE7D9 /* SJExtension.framework */,
+				3809CF4F1FB8D2E6008DE7D9 /* SJExtensionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		38FED6581FB0CA1000A08104 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,7 @@
 				38FED6781FB0CA1000A08104 /* ChristmasTimeTests */,
 				38FED6831FB0CA1000A08104 /* ChristmasTimeUITests */,
 				38FED6621FB0CA1000A08104 /* Products */,
+				3809CF471FB8D2E6008DE7D9 /* SJExtension.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +152,11 @@
 		38FED6631FB0CA1000A08104 /* ChristmasTime */ = {
 			isa = PBXGroup;
 			children = (
+				3809CF5E1FB8F936008DE7D9 /* advent.png */,
+				38FED6981FB2460E00A08104 /* ball-1906468_960_720.png */,
 				38FED6641FB0CA1000A08104 /* AppDelegate.swift */,
 				38FED6661FB0CA1000A08104 /* ViewController.swift */,
+				3809CE8B1FB8C363008DE7D9 /* DataTools.swift */,
 				38FED6681FB0CA1000A08104 /* Main.storyboard */,
 				38FED66B1FB0CA1000A08104 /* Assets.xcassets */,
 				38FED66D1FB0CA1000A08104 /* LaunchScreen.storyboard */,
@@ -135,10 +193,12 @@
 				38FED65D1FB0CA1000A08104 /* Sources */,
 				38FED65E1FB0CA1000A08104 /* Frameworks */,
 				38FED65F1FB0CA1000A08104 /* Resources */,
+				3809CEFA1FB8CF87008DE7D9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3809CF531FB8D301008DE7D9 /* PBXTargetDependency */,
 			);
 			name = ChristmasTime;
 			productName = ChristmasTime;
@@ -218,6 +278,12 @@
 			mainGroup = 38FED6581FB0CA1000A08104;
 			productRefGroup = 38FED6621FB0CA1000A08104 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3809CF481FB8D2E6008DE7D9 /* Products */;
+					ProjectRef = 3809CF471FB8D2E6008DE7D9 /* SJExtension.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				38FED6601FB0CA1000A08104 /* ChristmasTime */,
@@ -227,14 +293,33 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		3809CF4D1FB8D2E6008DE7D9 /* SJExtension.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SJExtension.framework;
+			remoteRef = 3809CF4C1FB8D2E6008DE7D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3809CF4F1FB8D2E6008DE7D9 /* SJExtensionTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SJExtensionTests.xctest;
+			remoteRef = 3809CF4E1FB8D2E6008DE7D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		38FED65F1FB0CA1000A08104 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3809CF5F1FB8F936008DE7D9 /* advent.png in Resources */,
 				38FED66F1FB0CA1000A08104 /* LaunchScreen.storyboard in Resources */,
 				38FED66C1FB0CA1000A08104 /* Assets.xcassets in Resources */,
 				38FED66A1FB0CA1000A08104 /* Main.storyboard in Resources */,
+				38FED6991FB2460E00A08104 /* ball-1906468_960_720.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38FED6671FB0CA1000A08104 /* ViewController.swift in Sources */,
+				3809CE8C1FB8C363008DE7D9 /* DataTools.swift in Sources */,
 				38FED6651FB0CA1000A08104 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +369,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3809CF531FB8D301008DE7D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SJExtension;
+			targetProxy = 3809CF521FB8D301008DE7D9 /* PBXContainerItemProxy */;
+		};
 		38FED6771FB0CA1000A08104 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 38FED6601FB0CA1000A08104 /* ChristmasTime */;
@@ -416,6 +507,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -425,30 +517,34 @@
 		38FED68A1FB0CA1000A08104 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69GB2332ZV;
 				INFOPLIST_FILE = ChristmasTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.schwoediauer.ChristmasTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		38FED68B1FB0CA1000A08104 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69GB2332ZV;
 				INFOPLIST_FILE = ChristmasTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.schwoediauer.ChristmasTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
