@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         case "Früh":
             backgound.alpha = 0.7
             backgound.backgroundColor = UIColor.darkGray
-            greetings.text = "Noch sehr späht " + benutzerGeraeteName
+            greetings.text = "Noch sehr früh " + benutzerGeraeteName
         case "Morgen":
             backgound.alpha = 0.7
             backgound.backgroundColor = UIColor.lightGray
@@ -159,7 +159,7 @@ class ViewController: UIViewController {
         backgound.alpha = 1.0
         
         
-        //load image from URL ------------------------------------------------------
+        /*/load image from URL ------------------------------------------------------
         
         if let url = NSURL(string: "http://85.233.100.73/ELSI/Dev/christmas.jpg") {
             if let data = NSData(contentsOf: url as URL) {
@@ -170,7 +170,7 @@ class ViewController: UIViewController {
         }
         
         //end load image from URL --------------------------------------------------
-        
+        */
         
         
         //Refresh Timer definieren -------------------
