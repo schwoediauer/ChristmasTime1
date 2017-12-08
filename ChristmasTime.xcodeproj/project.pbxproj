@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3807697B1FDA84BE0023A5AD /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 380769631FDA84B80023A5AD /* Contents.json */; };
+		380769911FDA85C80023A5AD /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 380769901FDA85C70023A5AD /* LaunchImage-568h@2x.png */; };
 		3809CE8C1FB8C363008DE7D9 /* DataTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809CE8B1FB8C363008DE7D9 /* DataTools.swift */; };
 		3809CF501FB8D301008DE7D9 /* SJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3809CF4D1FB8D2E6008DE7D9 /* SJExtension.framework */; };
 		3809CF511FB8D301008DE7D9 /* SJExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3809CF4D1FB8D2E6008DE7D9 /* SJExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -74,6 +76,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		380769631FDA84B80023A5AD /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		380769901FDA85C70023A5AD /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
 		3809CE8B1FB8C363008DE7D9 /* DataTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTools.swift; sourceTree = "<group>"; };
 		3809CF471FB8D2E6008DE7D9 /* SJExtension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SJExtension.xcodeproj; path = ../../Framework/SJExtension/SJExtension.xcodeproj; sourceTree = "<group>"; };
 		3809CF5E1FB8F936008DE7D9 /* advent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = advent.png; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 		38FED6581FB0CA1000A08104 = {
 			isa = PBXGroup;
 			children = (
+				380769901FDA85C70023A5AD /* LaunchImage-568h@2x.png */,
+				380769631FDA84B80023A5AD /* Contents.json */,
 				38FED6631FB0CA1000A08104 /* ChristmasTime */,
 				38FED6781FB0CA1000A08104 /* ChristmasTimeTests */,
 				38FED6831FB0CA1000A08104 /* ChristmasTimeUITests */,
@@ -317,7 +323,9 @@
 			files = (
 				3809CF5F1FB8F936008DE7D9 /* advent.png in Resources */,
 				38FED66F1FB0CA1000A08104 /* LaunchScreen.storyboard in Resources */,
+				380769911FDA85C80023A5AD /* LaunchImage-568h@2x.png in Resources */,
 				38FED66C1FB0CA1000A08104 /* Assets.xcassets in Resources */,
+				3807697B1FDA84BE0023A5AD /* Contents.json in Resources */,
 				38FED66A1FB0CA1000A08104 /* Main.storyboard in Resources */,
 				38FED6991FB2460E00A08104 /* ball-1906468_960_720.png in Resources */,
 			);
@@ -519,6 +527,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69GB2332ZV;
 				INFOPLIST_FILE = ChristmasTime/Info.plist;
@@ -536,6 +545,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69GB2332ZV;
 				INFOPLIST_FILE = ChristmasTime/Info.plist;
