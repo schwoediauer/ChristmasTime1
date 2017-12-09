@@ -13,6 +13,7 @@
 		3809CF501FB8D301008DE7D9 /* SJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3809CF4D1FB8D2E6008DE7D9 /* SJExtension.framework */; };
 		3809CF511FB8D301008DE7D9 /* SJExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3809CF4D1FB8D2E6008DE7D9 /* SJExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3809CF5F1FB8F936008DE7D9 /* advent.png in Resources */ = {isa = PBXBuildFile; fileRef = 3809CF5E1FB8F936008DE7D9 /* advent.png */; };
+		38A391661FDC77EA002FBC7B /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 38A391641FDC77EA002FBC7B /* AppIcon.appiconset */; };
 		38FED6651FB0CA1000A08104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FED6641FB0CA1000A08104 /* AppDelegate.swift */; };
 		38FED6671FB0CA1000A08104 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FED6661FB0CA1000A08104 /* ViewController.swift */; };
 		38FED66A1FB0CA1000A08104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FED6681FB0CA1000A08104 /* Main.storyboard */; };
@@ -81,6 +82,7 @@
 		3809CE8B1FB8C363008DE7D9 /* DataTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTools.swift; sourceTree = "<group>"; };
 		3809CF471FB8D2E6008DE7D9 /* SJExtension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SJExtension.xcodeproj; path = ../../Framework/SJExtension/SJExtension.xcodeproj; sourceTree = "<group>"; };
 		3809CF5E1FB8F936008DE7D9 /* advent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = advent.png; sourceTree = "<group>"; };
+		38A391641FDC77EA002FBC7B /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 		38FED6611FB0CA1000A08104 /* ChristmasTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristmasTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FED6641FB0CA1000A08104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38FED6661FB0CA1000A08104 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		38FED6581FB0CA1000A08104 = {
 			isa = PBXGroup;
 			children = (
+				38A391641FDC77EA002FBC7B /* AppIcon.appiconset */,
 				380769901FDA85C70023A5AD /* LaunchImage-568h@2x.png */,
 				380769631FDA84B80023A5AD /* Contents.json */,
 				38FED6631FB0CA1000A08104 /* ChristmasTime */,
@@ -321,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A391661FDC77EA002FBC7B /* AppIcon.appiconset in Resources */,
 				3809CF5F1FB8F936008DE7D9 /* advent.png in Resources */,
 				38FED66F1FB0CA1000A08104 /* LaunchScreen.storyboard in Resources */,
 				380769911FDA85C80023A5AD /* LaunchImage-568h@2x.png in Resources */,
