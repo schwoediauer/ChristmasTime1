@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         candle4.isHidden = true
         
         let newDay = DateTool()
-                
+        
         switch newDay.checkAdventWeek(checkDate: today) {
         case 1:
             candle1.isHidden = false
@@ -178,14 +178,8 @@ class ViewController: UIViewController {
         
         // initial run of timer -------------------
         runRefreshCode()
-        //let test = DateTool()
-        //test.testFunc()
-        //DateTool.testClassMethod()
         
-        // check advendt week =============================
-        //let now = Date()
-        //let advent = DateTool()
-        //print(advent.checkAdventWeek(checkDate: now))
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball-1906468_960_720.png" translatesAutoresizingMaskIntoConstraints="NO" id="7LO-Oa-7gb">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="655"/>
+                                <rect key="frame" x="0.0" y="0.0" width="359" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vif-8u-fJY">
@@ -44,17 +44,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="51" placeholderIntrinsicHeight="76" image="advent.png" translatesAutoresizingMaskIntoConstraints="NO" id="MTO-jf-ZfG">
-                                <rect key="frame" x="242" y="571" width="51" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="advent.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZQc-6o-pt3">
+                                <rect key="frame" x="108" y="550" width="60" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="5ek-mH-nQN"/>
+                                    <constraint firstAttribute="height" constant="76" id="aTd-fH-1BJ"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="advent.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZQc-6o-pt3">
-                                <rect key="frame" x="94" y="571" width="60" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="advent.png" translatesAutoresizingMaskIntoConstraints="NO" id="rnQ-hM-Zfu">
-                                <rect key="frame" x="22" y="571" width="64" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="advent.png" translatesAutoresizingMaskIntoConstraints="NO" id="rnQ-hM-Zfu">
+                                <rect key="frame" x="24" y="550" width="64" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="les-5P-J2B"/>
+                                    <constraint firstAttribute="width" constant="64" id="spt-uF-epW"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bis Weihnachten" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTB-L9-nFY">
                                 <rect key="frame" x="16" y="395" width="216.5" height="27.5"/>
@@ -62,19 +64,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="advent.png" translatesAutoresizingMaskIntoConstraints="NO" id="bpH-gh-9pD">
-                                <rect key="frame" x="163" y="571" width="63" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="advent.png" translatesAutoresizingMaskIntoConstraints="NO" id="bpH-gh-9pD">
+                                <rect key="frame" x="199" y="550" width="63" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="6wQ-La-H0D"/>
+                                    <constraint firstAttribute="width" constant="63" id="fCx-cF-d36"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="51" placeholderIntrinsicHeight="76" image="advent.png" translatesAutoresizingMaskIntoConstraints="NO" id="MTO-jf-ZfG">
+                                <rect key="frame" x="293" y="550" width="51" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="51" id="bgj-OD-zSJ"/>
+                                    <constraint firstAttribute="height" constant="76" id="dIS-ly-e80"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="bpH-gh-9pD" firstAttribute="leading" secondItem="ZQc-6o-pt3" secondAttribute="trailing" constant="31" id="9Ob-9d-Mlc"/>
+                            <constraint firstItem="ZQc-6o-pt3" firstAttribute="leading" secondItem="rnQ-hM-Zfu" secondAttribute="trailing" constant="20" id="Bx1-5P-1b0"/>
                             <constraint firstItem="1MU-Sx-Yh9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="53" id="DXG-Xv-Bdj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rnQ-hM-Zfu" secondAttribute="bottom" constant="41" id="EPg-rE-ha7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bpH-gh-9pD" secondAttribute="bottom" constant="41" id="GeS-TL-9Vo"/>
+                            <constraint firstItem="MTO-jf-ZfG" firstAttribute="leading" secondItem="bpH-gh-9pD" secondAttribute="trailing" constant="31" id="Kv0-dZ-3dk"/>
                             <constraint firstItem="1MU-Sx-Yh9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Np5-0z-3MA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1MU-Sx-Yh9" secondAttribute="trailing" constant="16" id="Sr8-h4-KWZ"/>
                             <constraint firstItem="oTB-L9-nFY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Wh0-ms-uuE"/>
                             <constraint firstItem="FHe-fA-bjl" firstAttribute="top" secondItem="Vif-8u-fJY" secondAttribute="bottom" constant="25.5" id="X6A-Ws-tuF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZQc-6o-pt3" secondAttribute="bottom" constant="41" id="XOR-rm-1l5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MTO-jf-ZfG" secondAttribute="trailing" constant="31" id="hFH-2R-NIa"/>
                             <constraint firstItem="oTB-L9-nFY" firstAttribute="top" secondItem="FHe-fA-bjl" secondAttribute="bottom" constant="31" id="jO9-5A-wY2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MTO-jf-ZfG" secondAttribute="bottom" constant="41" id="jip-Da-VMI"/>
                             <constraint firstItem="Vif-8u-fJY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="jn1-dP-vna"/>
                             <constraint firstItem="Vif-8u-fJY" firstAttribute="top" secondItem="1MU-Sx-Yh9" secondAttribute="bottom" constant="207" id="pAF-4i-Sah"/>
                             <constraint firstItem="FHe-fA-bjl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rM2-0D-eyP"/>
